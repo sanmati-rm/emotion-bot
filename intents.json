@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "happy",
+         "patterns": ["Hi there","How are you","Good day","Hello","happy", "awesome", "satisfied", "good"],
+         "responses": ["Really happy for you!", "Congratulations","Hello, thanks for asking", "Good to see you again"],
+         "context": [""]
+        },
+        {"tag": "sad",
+         "patterns": ["sad", "no", "not", "help","can't"],
+         "responses": ["How could I help you?", "What I can do to make it better?"],
+         "context": [""]
+        },
+        {"tag": "fear",
+         "patterns": ["scared", "scary"],
+         "responses": ["It will be fine, how can I help"],
+         "context": [""]
+        },
+        {"tag": "surprise",
+         "patterns": ["Oh", "think", "suppose", "surprisingly" ],
+         "responses": ["We can help you with that","We are glad to be of help"],
+         "context": [""]
+        },
+        {"tag": "angry",
+         "patterns": ["not acceptble", "inconvienient", "unreasonable", "shocking" ],
+         "responses": ["We apologise for you feeling this way. How can we make your experience better?"],
+         "context": [""]
+        }
+    ]
+    }

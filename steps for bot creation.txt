@@ -1,0 +1,24 @@
+First create python environment-
+  - python3 -m venv .venv
+  - source .venv/bin/activate
+
+Create slack app -
+  - add oauth tokens as necessary
+  - copy slack bot token and set it in the terminal - export SLACK_TOKEN=YOUR-BOT-TOKEN-HERE
+  - get the slack signing secret and set it in the terminal - export SLACK_SIGNING_SECRET=your-slack-signing-secret-here
+
+Code the BOT
+
+For local server -
+ - install local tunnel -
+    - source ~/.bash_profile
+    - npm install -g localtunnel
+
+Run the bot - python3 bot.py
+
+Run the server
+  - lt --port 3000
+  - copy the url and paste it in the slack app under event subscriptions
+  - subscribe to the bot events required
+
+Interact with bot
