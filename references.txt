@@ -1,0 +1,10 @@
+REFERENCES
+
+- https://medium.com/developer-student-clubs-tiet/how-to-build-your-first-slack-bot-in-2020-with-python-flask-using-the-slack-events-api-4b20ae7b4f86
+- https://api.slack.com/start/building/bolt-python
+- https://www.digitalocean.com/community/tutorials/how-to-build-a-slackbot-in-python-on-ubuntu-20-04
+- https://data-flair.training/blogs/python-chatbot-project/
+- https://www.npmjs.com/package/localtunnel
+
+SLACK APP - https://api.slack.com/apps/A031F32H9EF
+SLACK WORKSPACE - https://app.slack.com/client/T0318AYFDDY/C032179G6CR
